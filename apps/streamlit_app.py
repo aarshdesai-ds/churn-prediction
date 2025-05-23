@@ -9,7 +9,8 @@ import numpy as np
 import joblib
 
 # === Load the trained model ===
-model = joblib.load('../model/churn_model.pkl')
+model = joblib.load('churn_model.pkl')
+
 
 # === App Title ===
 st.title("📉 Customer Churn Predictor")
