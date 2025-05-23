@@ -42,7 +42,6 @@ It combines feature engineering, class imbalance handling, and model deployment 
 | **Actual: No Churn** | 849 (True Negative)  | 172 (False Positive) |
 | **Actual: Churn**    | 138 (False Negative) | 911 (True Positive)  |
 
-
 ### 📊 Metrics
 
 | Metric        | Value     |
@@ -61,29 +60,24 @@ It combines feature engineering, class imbalance handling, and model deployment 
 
 ## 💻 Streamlit Web App
 
-> A fully interactive app to predict customer churn probability based on live inputs.
+> A fully interactive local app to predict customer churn probability based on user input.
 
 ### 🧾 Features
 - Sidebar with inputs like gender, contract type, billing preferences
-- Live churn prediction with confidence score
-- Clean, responsive design
-
-### ▶️ Try it Online
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://YOUR-APP-URL.streamlit.app)
-
-> 📌 Replace `YOUR-APP-URL` with your deployed app URL on [Streamlit Cloud](https://streamlit.io/cloud)
+- Real-time churn prediction with confidence score
+- Clean, responsive design running locally
 
 ---
-
 
 ## 🚀 How to Run Locally
 
 ```bash
+# Clone the repository
+git clone https://github.com/aarshdesai-ds/churn-prediction.git
+cd churn-prediction
+
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the Streamlit app
 streamlit run app/streamlit_app.py
-
-
