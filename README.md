@@ -71,14 +71,14 @@ It combines feature engineering, class imbalance handling, and model deployment 
 
 ## 🚀 How to Run Locally
 
-# Clone the repository
+1. Clone the repository
 `git clone https://github.com/aarshdesai-ds/churn-prediction.git`
 `cd churn-prediction`
 
-# Install dependencies
+2. Install dependencies
 `pip install -r requirements.txt`
 
-# Run the Streamlit app
+3. Run the Streamlit app
 `streamlit run app/streamlit_app.py`
 
 ---
