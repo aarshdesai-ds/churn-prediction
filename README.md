@@ -117,4 +117,21 @@ This project combines a machine learning pipeline with a Streamlit web applicati
 
 ## 🧪 Business-Relevant Evaluation
 
-- **High Recall** ensured actual churners
+- **High Recall** ensured actual churners are rarely missed — crucial for proactive retention efforts.
+- **Precision** kept false churn alerts low — important to avoid unnecessary interventions for loyal users.
+- **Confusion Matrix** illustrated a strong separation between classes.
+
+---
+
+## 🖥️ Interactive Streamlit App
+
+- Fully local, interactive app for customer churn prediction  
+- Users can input customer attributes and get **real-time probability predictions**  
+- Clean UI supports **operational deployment** or internal demos  
+
+---
+
+## 📈 Conclusion
+
+This churn prediction system is both **technically robust** and **business-friendly**.  
+With strong recall, balanced metrics, and an interactive front-end, it’s ideal for customer success teams aiming to **identify at-risk users early and take action**.
