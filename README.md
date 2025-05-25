@@ -71,13 +71,50 @@ It combines feature engineering, class imbalance handling, and model deployment 
 
 ## 🚀 How to Run Locally
 
-```bash
 # Clone the repository
-git clone https://github.com/aarshdesai-ds/churn-prediction.git
-cd churn-prediction
+`git clone https://github.com/aarshdesai-ds/churn-prediction.git`
+`cd churn-prediction`
 
 # Install dependencies
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 # Run the Streamlit app
-streamlit run app/streamlit_app.py
+`streamlit run app/streamlit_app.py`
+
+---
+
+## ✅ Key Takeaways
+
+This project combines a machine learning pipeline with a Streamlit web application to predict telecom customer churn. Here are the major insights and results:
+
+---
+
+## 🔍 Real-World Problem, Real-World Features
+
+- Used rich customer data including **demographics**, **services used**, and **billing information** to predict churn behavior.
+- Feature engineering and encoding enabled better understanding of the customer lifecycle and engagement levels.
+
+---
+
+## ⚖️ Class Imbalance Solved with SMOTE
+
+- The original dataset was **imbalanced**, with more non-churn than churn cases.
+- **SMOTE (Synthetic Minority Over-sampling Technique)** improved recall for the minority churn class.
+- Helped the model detect more true churn cases without overfitting.
+
+---
+
+## 🌲 Robust Model Performance
+
+- **Random Forest Classifier** provided strong performance with:
+  - **85% Accuracy**
+  - **84.1% Precision**
+  - **86.8% Recall**
+  - **ROC-AUC > 0.85**
+- Balanced performance meant it could catch churners **without overwhelming false positives**.
+
+---
+
+## 🧪 Business-Relevant Evaluation
+
+- **High Recall** ensured actual churners
